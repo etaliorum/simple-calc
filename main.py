@@ -1,26 +1,26 @@
 a = int(input())
 b = int(input())
-operand = input()
+operation = input()
 
-if (operand == '+'):
+if (operation == '+'):
     print(a + b)
-if (operand == '-'):
+if (operation == '-'):
     print(a - b)
-if (operand == '/'):
+if (operation == '/'):
     if b == 0:
         print('Деление на 0!')
     else:
         print(a / b)
-if (operand == '*'):
+if (operation == '*'):
     print(a * b)
-if (operand == 'mod'):
+if (operation == 'mod'):
     if b == 0:
         print('Деление на 0!')
     else:
         print(a % b)
-if operand == 'pow':
+if operation == 'pow':
     print(a ** b)
-if operand == 'div':
+if operation == 'div':
     if b == 0:
         print('Деление на 0!')
     else:
